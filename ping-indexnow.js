@@ -2,9 +2,9 @@ const fs = require('fs');
 const path = require('path');
 const https = require('https');
 
-const HOST = 'state-n-statefulness.pages.dev';
+const HOST = 'state-n-statefulness.pageaura.xyz';
 const KEY = '1359aadf4a7143efbb7762b6cb651a04';
-const KEY_LOCATION = `https://state-n-statefulness.pages.dev/1359aadf4a7143efbb7762b6cb651a04.txt`;
+const KEY_LOCATION = `https://state-n-statefulness.pageaura.xyz/1359aadf4a7143efbb7762b6cb651a04.txt`;
 
 const urlsFile = path.join(__dirname, 'urls.txt');
 let urlList = [];
