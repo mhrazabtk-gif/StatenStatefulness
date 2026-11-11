@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const DOMAIN = 'https://state-n-statefulness.pages.dev';
+const DOMAIN = 'https://state-n-statefulness.pageaura.xyz';
 const KEY = '1359aadf4a7143efbb7762b6cb651a04';
 
 const ROOT = __dirname;
@@ -45,7 +45,7 @@ for (const value of rawUrls) {
   }
 
   if (
-    url.hostname.toLowerCase() !== 'state-n-statefulness.pages.dev' ||
+    url.hostname.toLowerCase() !== 'state-n-statefulness.pageaura.xyz' ||
     !['http:', 'https:'].includes(url.protocol) ||
     url.username ||
     url.password
